@@ -20,8 +20,7 @@ public class Helloworld extends HttpServlet {
 		 response.setContentType("text/html");
 		 PrintWriter writer= response.getWriter();
 		 writer.print("<html><body><marquee><h1>Hello World</h1></marquee>"+new Date(0).toString()+"</BODY><HTML>");
-		 writer.print("<html><body><h1>Soy Genial</h1>");
-		 writer.print("html><body><marquee><h1>Ing. Gabriel Rivera Morales</h1></marquee>");
+		 writer.print("<html><body><marquee><h1>Gabriel Rivera Morales</h1></marquee>");
 	 }
 	
 	
