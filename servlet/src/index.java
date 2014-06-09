@@ -1,5 +1,4 @@
 
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.ParseException;
@@ -15,8 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class index extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter writer = response.getWriter();
 		writer.println("<html>"
@@ -104,7 +102,7 @@ public class index extends HttpServlet {
 		Program.dashboard.add(task);
 
 		response.setContentType("text/html");
-		PrintWriter writer = response.getWriter();
-		//writer.print("<html><body>" + task.toHtml() + "</body></html>");
+		PrintWriter hola = response.getWriter();
+		hola.println("<html><body>" + ((Object) task) + "</body></html>");
 	}
 }
