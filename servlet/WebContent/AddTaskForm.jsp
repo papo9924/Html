@@ -20,23 +20,23 @@ var owner = document.forms["task_form"]["owner"].value;
 
 if(!title)
 {
-alert("TITULO VACIO");
+alert("Title empty!!!");
 return false;
 } else if(!description)
 {
-alert("DESCRIPCION VACIA");
+alert("Description empty!!!");
 return false;
 } else if(!category)
 {
-alert("CATEGORIA VACIA");
+alert("Category empty!!!");
 return false;
 } else if(!priority)
 {
-alert("PRIORIDAD VACIA");
+alert("Priority empty!!!");
 return false;
 } else if(!owner)
 {
-alert("PROPIETARIO VACIO");
+alert("Owner empty!!!");
 return false;
 }
 return true;
