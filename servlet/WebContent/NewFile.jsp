@@ -6,9 +6,19 @@ contentType="text/html"
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Soy Genial</title>
+<title> Soy Genial</title>
 </head>
 <body>
+<script>
+function validate(){
+	var title =document.forms["task_form"]["title"].value;
+	if(!title){
+		alert("Title empty!!!");
+	}
+	alert(alert_msg);
+}
+
+</script>
 <%@ include file="Copyright.jsp" %>
 <%--Esto es un comentario desde JSP --%>
 <!--Esto es un comentario desde HTML -->
