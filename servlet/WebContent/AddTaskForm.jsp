@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <script>
-<%--window.alert("Inicia tu super codigo");--%>
+<%--window.alert("Inicia codigo");--%>
 </script>
 <body>
 	<script>
